@@ -23,23 +23,102 @@
 </head>
 
 <body>
-    <div class="container pt-2 ">
+    <div class="container-fluid pt-2 ">
         <row>
             <div class="col-12  pt-2" id="banner">
                 <h1 class="align-middle">Weather Dashboard</h1>
             </div>
         </row>
-        <div class="col-sm-4 pt-" id="searchDiv">
+        <div class="col-sm-4 pt float-left  " id="searchDiv">
+
             <h4>search for a city:</h4>
             <form class="form-inline">
 
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-primary my-2 my-sm-0" type="submit"><img
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" id="citySearch"
+                    aria-label="Search">
+                <button class="btn btn-primary my-2 my-sm-0" type="submit" id="searchBtn"><img
                         src="/assets/search-white-18dp.svg"></button>
             </form>
 
         </div>
+        <div id="currentContainer">
+            <div class='float-right col-sm-8 mt-2 m-0' id='current'>
+                <h1 id='currentTitle'></h1>
+                <h3 id="temp"></h3>
+                <h3 id="hum"></h3>
+                <h3 id="wind"></h3>
+                <h3 id="uv"></h3>
+
+            </div>
+
+            <div class="float-right col-sm-8 pr-2">
+                <div class="row ml-0 ">
+                    <h4 class="float-right">5 Day Forecast:</h4>
+                </div>
+            </div>
+            <div class="float-right col-sm-8 pt-2 pl-0 pr-0 m-0">
+                <div class="row">
+                    <div class="col-sm float-right">
+                        <div class="card bg-primary">
+                            <div class="card-body">
+                                <h5 class="card-title date" id="day1Date"></h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm float-right">
+                        <div class="card bg-primary">
+                            <div class="card-body">
+                                <h5 class="card-title date" id="day2Date"></h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm float-right">
+                        <div class="card bg-primary">
+                            <div class="card-body">
+                                <h5 class="card-title date" id="day3Date"></h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm float-right">
+                        <div class="card bg-primary">
+                            <div class="card-body">
+                                <h5 class="card-title date" id="day4Date"></h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm float-right">
+                        <div class="card bg-primary">
+                            <div class="card-body">
+                                <h5 class="card-title date" id="day5Date"></h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
+
+
+
+    <!-- <div class=""></div> -->
+
 
 </body>
 
