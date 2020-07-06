@@ -8,7 +8,7 @@ This application allows you to search for weather forecasts based on the city se
 
 The application is built using html, css and JavaScript. It utilizes Bootstrap , JQuery all of which are added via cdn.The weather data is sourced from the Openweathermap.org api. There is nothing necessary for the user to install to begin using the application.
 
-## imprtant Links
+## important Links
 weather data provided by http://home.openweathermap.org
 Bootstrap http://getbootstrap.com
 jquery https://jquery.com/
