@@ -13,7 +13,7 @@
 #current{
     /* background-color: black; */
     height: 50vh;
-    width: 63vw;
+    width: 65vw;
     border: 1px solid lightgrey;
    
 }
@@ -28,4 +28,16 @@
 }
 .date{
     color:white;
+}
+.leftDiv{
+    height: 90vh;
+}
+.rightDiv{
+    height: 90vh;
+}
+.list{
+    height: 6.6vh;
+}
+.cardHeight{
+    height: 24vh;
 }
