@@ -29,7 +29,7 @@ $(document).ready(function () {
     )
     // function to return 5 day forecast
     function weatherCall5day(cityName) {
-        var queryURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + cityName + "&appid=98092cf02163d0e2417b3f3c5ba24af1&units=imperial"
+        var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + cityName + "&appid=98092cf02163d0e2417b3f3c5ba24af1&units=imperial"
         $.ajax({
             url: queryURL,
             method: "GET",
@@ -67,7 +67,7 @@ $(document).ready(function () {
     // this function gets uv data, checks the value for color coding and displays the value
     function uvIndex(lat, lon) {
 
-        var queryURL = "http://api.openweathermap.org/data/2.5/uvi?appid=98092cf02163d0e2417b3f3c5ba24af1&lat=" + lat + "&lon=" + lon
+        var queryURL = "https://api.openweathermap.org/data/2.5/uvi?appid=98092cf02163d0e2417b3f3c5ba24af1&lat=" + lat + "&lon=" + lon
         $.ajax({
             url: queryURL,
             method: "GET",
@@ -97,7 +97,7 @@ $(document).ready(function () {
     }
     // function for current weather 
     function weatherCallCurrent(cityName) {
-        var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=98092cf02163d0e2417b3f3c5ba24af1&units=imperial"
+        var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=98092cf02163d0e2417b3f3c5ba24af1&units=imperial"
         $.ajax({
             url: queryURL,
             method: "GET",
